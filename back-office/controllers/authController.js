@@ -71,4 +71,4 @@ exports.protect = async (req, res, next) => {
     }
 };
 
-// ... You can add more methods as needed, such as logOut, password reset, etc.
+ 

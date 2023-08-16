@@ -10,7 +10,7 @@ exports.hashPassword = async (password) => {
     if (!password)
     { 
         return null;
-      //  throw new Error("No password provided for hashing.");
+    
     }else{
 
     const salt = await bcrypt.genSalt(10);
